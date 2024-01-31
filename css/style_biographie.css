@@ -1,0 +1,133 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #71597a;
+    margin-left: 0px;
+}
+
+/* -------------------------------------------------- */
+/* Menu navigation */
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 0px 1%;
+    background: #5e475e;
+    display: flex;
+    justify-content: space-between;
+    z-index: 100;
+    align-items: center;
+}
+
+.header img {
+    width: 115px;
+    height: auto;
+}
+
+.menu a {
+    font-size: 18px;
+    color: #ededed;
+    text-decoration: none;
+    font-weight: 25;
+    margin-left: 35px;
+    margin-right: 30px;
+    transition: .3s;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.menu a:hover,
+.menu a.active {
+    color: rgb(157, 112, 209);
+}
+
+/* ------------------------------------------- */
+/* Biographie */
+.biographie {
+    min-height: 100vh;
+    padding: 10rem 3% 1rem;
+}
+
+.biographie h1 {
+    font-size: 50px;
+    font-weight: 100;
+    line-height: 1.3;
+    font-family: "Trebuchet MS";
+    text-align: center;
+    color: #8b65da;
+}
+
+.biographie h3 {
+    font-size: 38px;
+    font-weight: 100;
+    font-family: 'Roboto Mono', monospace;
+    margin-left: 10px;
+    color:  #8b65da;
+}
+
+.biographie p {
+    border: 2px solid white;
+    padding: 20px;
+    margin: 10px;
+    font-size: 20px;
+    color: #A374C8;
+    font-family: 'Roboto Mono', monospace;
+}
+
+/* Footer */
+
+footer {
+    background-color: transparent;
+}
+
+.footer {
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a {
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+    background-color: white;
+    border-radius: 50px;    
+}
+
+.socialIcons a i {
+    font-size: 1.8em;
+    color: black;
+    opacity: 0.9;
+}
+
+.socialIcons a:hover {
+    background-color: #111;
+    transition: 0.5s;
+}
+
+.socialIcons a:hover i {
+    color: white;
+    transition: 0.5s;
+}
+
+.footerBottom {
+    padding: 20px;
+    text-align: center;
+}
+
+.footerBottom p {
+    color: white;
+    font-family: 'Roboto Mono', monospace;
+}
